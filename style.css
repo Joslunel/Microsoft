@@ -95,3 +95,29 @@ nav {
 .call-to-action h2 {
   margin-bottom: 0.2rem;
 }
+.explore {
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  height: 50%;
+  margin: auto;
+  padding-top: 2rem;
+  align-items: stretch;
+}
+
+
+/* .explore-content {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: column nowrap;
+  border: 1px solid black;
+} */
+.explore-content-image {
+  /* flex: 1 1 auto; */
+}
+
+/* .explore img {
+  display: block;
+  flex: 0 1 auto;
+  width: 100%;
+} */
