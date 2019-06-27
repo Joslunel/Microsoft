@@ -27,16 +27,40 @@ a {
 
 nav {
   width: 95%;
-  border: 1px black solid;
+  /* border: 1px black solid; */
   margin: auto;
   display: flex;
+  justify-content: space-between;
+  /* white-space: nowrap; */
 }
 .navigation-wrap-left {
   display: flex;
+  align-items: center;
+}
+.navigation-wrap-left img {
+  width: 60%; 
+}
+.navigation-logo {
+  flex: 0 0 auto;
+  margin-right: -7rem;
 }
 .navigation-list li {
   list-style: none;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   display: inline;
+  padding: 0 0.5rem;
+}
+.navigation-list a {
+  color: var(--dark-grey);
+}
+.navigation-wrap-right {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.navigation-right-link a {
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+  color: var(--dark-grey);
 }
