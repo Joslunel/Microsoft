@@ -12,6 +12,7 @@ body {
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   background: var(--white);
+  margin: 0;
 }
 a {
   text-decoration: none;
