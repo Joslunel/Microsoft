@@ -182,10 +182,21 @@ nav {
   display: flex;
   justify-content: flex-start;
 }
+.footer-column {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  flex: 0 1 auto;
+  margin: 0 2rem 2rem 2rem;
+}
 .footer-column li {
   list-style: none;
+  padding: 1rem 0 0 0;
 }
 .footer-column a {
-  color: var(--dark-grey);
+  color: var(--middle-grey);
   font-size: 0.7rem;
+}
+.footer-column h4 {
+  color: var(--middle-grey);
 }
