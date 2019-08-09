@@ -118,6 +118,7 @@ nav {
 .explore {
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
   width: 100%;
   margin: 0 auto;
   padding: 2rem 0 3rem 0;
@@ -125,7 +126,8 @@ nav {
 .explore-content {
   flex: 1 1 0;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
+  min-width: 250px;
 }
 .column-a,
 .column-b,
