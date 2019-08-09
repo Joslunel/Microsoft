@@ -97,10 +97,14 @@ nav {
   text-transform: uppercase;
   background: var(--white);
   color: var(--black);
-  width: 9rem;
+  width: 11rem;
   font-size: 0.9rem;
   text-align: center;
   padding: 1rem 2rem;
+}
+.call-to-action h3:hover {
+  text-decoration: underline;
+  
 }
 .call-to-action p {
   font-size: 0.9rem;
