@@ -40,7 +40,7 @@ nav {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  /* white-space: nowrap; */
+  white-space: nowrap;
 }
 .navigation-wrap-left {
   display: flex;
@@ -81,6 +81,7 @@ nav {
 }
 
 /* header */
+
 .header-wrapper {
   width: 100%;
   margin: 0 auto;
@@ -104,7 +105,6 @@ nav {
 }
 .call-to-action h3:hover {
   text-decoration: underline;
-  
 }
 .call-to-action p {
   font-size: 0.9rem;
@@ -123,16 +123,16 @@ nav {
   padding: 2rem 0 3rem 0;
 }
 .explore-content {
-  flex: 1 1 25vw;
+  flex: 1 1 0;
   display: flex;
-  flex-flow: column nowrap;
-  /* align-items: center; */
+  flex-flow: row wrap;
 }
 .column-a,
 .column-b,
 .column-c {
   margin-right: 2vw;
 }
+
 .explore-content-image img {
   max-width: 100%;
   display: block;
